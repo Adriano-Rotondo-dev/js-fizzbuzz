@@ -18,8 +18,18 @@ Consigli del giorno:
 - setto il modulo % 5 == 0 , al quale associo la stampa di "Buzz" per ottenerla solo sui multipli di 5
 */
 
-//Creo il For Loop
+//Creo il For Loop e ne stampo il risultato in console
 
-for(let i = 0; i <= 100; i++ ){
+for(let i = 1; i <= 100; i++ ){
     console.log( i );
+
+    //Setto il modulo % 3 == 0 e inserisco l'istruzione di stampa se divisibile per 3
+    if ( i % 3 == 0 ) {
+        console.log( i, " multiplo di 3");
+    }
+    //Setto il modulo % 5 == 0 e inserisco l'istruzione di stampa se divisibile per 5 
+    else if ( i % 5 == 0 ) {
+        console.log( i, "multiplo di 5");
+        
+    }
 }
