@@ -1,4 +1,5 @@
-/* Scrivi un programma che stampi i numeri da 1 a 100, ma per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz. 
+/* Scrivi un programma che stampi i numeri da 1 a 100, ma per i multipli di 3 stampi “Fizz” al posto del numero
+ e per i multipli di 5 stampi Buzz. 
 Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 Prima di partire a scrivere codice poniamoci qualche domanda: 
 - Come faccio a sapere se un numero è divisibile per?
@@ -16,6 +17,7 @@ Consigli del giorno:
 - stampo il risultato per verificarne il funzionamento
 - setto il modulo % 3 == 0 , al quale associo la stampa di "Fizz" per ottenerla solo sui multipli di 3
 - setto il modulo % 5 == 0 , al quale associo la stampa di "Buzz" per ottenerla solo sui multipli di 5
+- setto la condizione per cui agli altri numeri sia associata la stampa "FizzBuzz"
 */
 
 //Creo il For Loop e ne stampo il risultato in console
@@ -45,7 +47,6 @@ for(let i = 1; i <= 100; i++ ){
             console.log( i, "Fizz");
         }
         else if ( i % 5 == 0 ) {
-            console.log( i, "Buzz");
-            
+            console.log( i, "Buzz");            
         }
     }
