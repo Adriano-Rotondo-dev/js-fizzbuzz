@@ -42,11 +42,13 @@ Consigli del giorno:
 // lo riscrivo inserendo le informazioni richieste sui multipli di 3 e i multipli di 5
 
 for(let i = 1; i <= 100; i++ ){
-        console.log( i );
         if ( i % 3 == 0 ) {
-            console.log( i, "Fizz");
+            console.log( i, "Fizz" );
         }
         else if ( i % 5 == 0 ) {
-            console.log( i, "Buzz");            
+            console.log( i, "Buzz" ); 
+        }
+        else if ( ( i % 3 != 0 ) && ( i % 5 != 0) ) {
+            console.log( i, "FizzBuzz" )
         }
     }
