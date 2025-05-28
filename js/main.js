@@ -10,7 +10,7 @@ Consigli del giorno:
 
 /* Instructions
 - Creo un Ciclo For
-- inizializzo la variabile "i" con un valore = 0 
+- inizializzo la variabile "i" con un valore = 1 
 - setto la condizione i < 100 
 - setto l'incremento i++
 - stampo il risultato per verificarne il funzionamento
