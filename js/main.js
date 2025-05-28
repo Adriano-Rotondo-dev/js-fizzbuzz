@@ -20,16 +20,32 @@ Consigli del giorno:
 
 //Creo il For Loop e ne stampo il risultato in console
 
-for(let i = 1; i <= 100; i++ ){
-    console.log( i );
+/*
+    for(let i = 1; i <= 100; i++ ){
+        console.log( i );
 
-    //Setto il modulo % 3 == 0 e inserisco l'istruzione di stampa se divisibile per 3
-    if ( i % 3 == 0 ) {
-        console.log( i, " multiplo di 3");
+        - Setto il modulo % 3 == 0 e inserisco l'istruzione di stampa se divisibile per 3
+        if ( i % 3 == 0 ) {
+            console.log( i, " multiplo di 3");
+        }
+        - Setto il modulo % 5 == 0 e inserisco l'istruzione di stampa se divisibile per 5 
+        else if ( i % 5 == 0 ) {
+            console.log( i, "multiplo di 5");
+            
+        }
     }
-    //Setto il modulo % 5 == 0 e inserisco l'istruzione di stampa se divisibile per 5 
-    else if ( i % 5 == 0 ) {
-        console.log( i, "multiplo di 5");
-        
+*/
+
+// verificato il funzionamento del programma
+// lo riscrivo inserendo le informazioni richieste sui multipli di 3 e i multipli di 5
+
+for(let i = 1; i <= 100; i++ ){
+        console.log( i );
+        if ( i % 3 == 0 ) {
+            console.log( i, "Fizz");
+        }
+        else if ( i % 5 == 0 ) {
+            console.log( i, "Buzz");
+            
+        }
     }
-}
