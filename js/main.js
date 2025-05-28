@@ -49,7 +49,7 @@ for (let i = 1; i <= 100; i++) {
     }
     // inserisco la condizione del modulo % 3
     else if (i % 3 == 0) {  // inizializzo la condizione del modulo % 3 per la verifica dei multipli di 3
-        console.log(i, "Fizz")// stampa Fizz sui multipli di 3
+        console.log(i, "Fizz") // stampa Fizz sui multipli di 3
     }
     // inserisco la condizione del modulo % 5     
     else if (i % 5 == 0) {  // inizializzo la condizione del modulo % 5 per la verifica dei multipli di 5
