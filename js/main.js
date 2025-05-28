@@ -17,7 +17,7 @@ Consigli del giorno:
 - stampo il risultato per verificarne il funzionamento
 - setto il modulo % 3 == 0 , al quale associo la stampa di "Fizz" per ottenerla solo sui multipli di 3
 - setto il modulo % 5 == 0 , al quale associo la stampa di "Buzz" per ottenerla solo sui multipli di 5
-- setto la condizione per cui agli altri numeri sia associata la stampa "FizzBuzz"
+- setto la condizione per cui ai numeri multipli di 3 e 5 sia associata la stampa "FizzBuzz"
 */
 
 //Creo il For Loop e ne stampo il risultato in console
@@ -41,14 +41,16 @@ Consigli del giorno:
 // verificato il funzionamento del programma
 // lo riscrivo inserendo le informazioni richieste sui multipli di 3 e i multipli di 5
 
-for(let i = 1; i <= 100; i++ ){
-        if ( i % 3 == 0 ) {
-            console.log( i, "Fizz" );
+for(let i = 1; i <= 100; i++ ){ //Inizio For Loop
+        if ( i % 3 == 0 ) { // inizializzo la condizione del modulo % 3 per la verifica dei multipli di 3
+            console.log( i, "Fizz" ); // stampa Fizz sui multipli di 3
         }
-        else if ( i % 5 == 0 ) {
-            console.log( i, "Buzz" ); 
+        else if ( i % 5 == 0 ) { // inizializzo la condizione del modulo % 5 per la verifica dei multipli di 5
+            console.log( i, "Buzz" ); // stampa del Buzz sui multipli di 5
         }
-        else if ( ( i % 3 != 0 ) && ( i % 5 != 0) ) {
-            console.log( i, "FizzBuzz" )
+        /* inserisco la condizione per cui ai numeri multipli sia di 3 che di 5 sia associata la stampa "FizzBuzz"
+        */
+        else if (  ) { // inizializzo la condizione per i numeri multipli di entrambi
+            console.log( i, "FizzBuzz" ) // stampa del FizzBuzz sui numeri multipli sia di 3 che di 5 
         }
     }
