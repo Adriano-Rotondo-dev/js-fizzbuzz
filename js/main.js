@@ -52,5 +52,5 @@ for(let i = 1; i <= 100; i++ ){;
     // inserisco la condizione del modulo % 5     
         else if ( i % 5 == 0 )  // inizializzo la condizione del modulo % 5 per la verifica dei multipli di 5
             console.log( i, "Buzz" ) // stampa del Buzz sui multipli di 5
-        else (console.log ( i ))
+        else (console.log ( i )) // stampa il numero non multiplo di 3 e/o 5
     }
