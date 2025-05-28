@@ -16,5 +16,10 @@ Consigli del giorno:
 - stampo il risultato per verificarne il funzionamento
 - setto il modulo % 3 == 0 , al quale associo la stampa di "Fizz" per ottenerla solo sui multipli di 3
 - setto il modulo % 5 == 0 , al quale associo la stampa di "Buzz" per ottenerla solo sui multipli di 5
-
 */
+
+//Creo il For Loop
+
+for(let i = 0; i <= 100; i++ ){
+    console.log( i );
+}
