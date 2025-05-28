@@ -42,15 +42,15 @@ Consigli del giorno:
 // lo riscrivo inserendo le informazioni richieste sui multipli di 3 e i multipli di 5
 
 for(let i = 1; i <= 100; i++ ){ //Inizio For Loop
-        if ( i % 3 == 0 ) { // inizializzo la condizione del modulo % 3 per la verifica dei multipli di 3
-            console.log( i, "Fizz" ); // stampa Fizz sui multipli di 3
+    console.log( i );
+        if ( i % 3 == 0 && i % 5 ==0 ) { // inizializzo la condizione per i numeri multipli di entrambi
+        console.log( i, "FizzBuzz") // stampa del FizzBuzz sui numeri multipli sia di 3 che di 5 
+    }
+        else if ( i % 3 == 0 ) { // inizializzo la condizione del modulo % 3 per la verifica dei multipli di 3
+            console.log( "Fizz" ); // stampa Fizz sui multipli di 3
         }
         else if ( i % 5 == 0 ) { // inizializzo la condizione del modulo % 5 per la verifica dei multipli di 5
-            console.log( i, "Buzz" ); // stampa del Buzz sui multipli di 5
+            console.log( "Buzz" ); // stampa del Buzz sui multipli di 5
         }
-        /* inserisco la condizione per cui ai numeri multipli sia di 3 che di 5 sia associata la stampa "FizzBuzz"
-        */
-        else if (  ) { // inizializzo la condizione per i numeri multipli di entrambi
-            console.log( i, "FizzBuzz" ) // stampa del FizzBuzz sui numeri multipli sia di 3 che di 5 
-        }
+        /* inserisco la condizione per cui ai numeri multipli sia di 3 che di 5 sia associata la stampa "FizzBuzz" */
     }
